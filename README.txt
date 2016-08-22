@@ -25,5 +25,7 @@ written by Geoff Bohling - March 2006, from the University of Kansas, US.
 
 7) ClassManuscript.txt  , ClassOverwriting.txt , ClassUnderwriting.txt , ClassBothUO.txt examples of text files produced with ImageJ based on the selection of points from a multispectral image of the folio/page 102v-107r_B of the Syriac Galen Palimpsest available at the web address digitalgalen.net .
 
+8) Obviously the Canonical Variates Analysis method is implemented in the C file called HelloWorld.c
+
 
   
