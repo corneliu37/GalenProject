@@ -4,7 +4,10 @@
  *  Created on: 22 August 2016
  *      Author: Dr. Corneliu Arsene
  *
- *  This software implements the Canonical Variates Analysis method (libhelloworld.jnilib file) for image processing: it reads the multispectral images from the same directory as where the libhelloworld.jnilib file is located  and then produces a number of improved colour images in comparison to the original multispectral images.
+ *   This software implements the Canonical Variates Analysis method (libhelloworld.jnilib file) for image
+ *   processing: it reads the multispectral images from the same directory as where the libhelloworld.jnilib 
+ *   file is located  and then produces a number of improved colour images in comparison to the original 
+ *   multispectral images.
  *
  *
  *
@@ -75,17 +78,6 @@ Java_HelloWorld_print(JNIEnv *env, jobject thisObj){
     int i,j,k;
     int grp1[9];//,grouping_vector[200] ;
     
-   
-    
-    grp1[0] = 1;
-    grp1[1] = 1;
-    grp1[2] = 1;
-    grp1[3] = 2;
-    grp1[4] = 2;
-    grp1[5] = 2;
-    grp1[6] = 3;
-    grp1[7] = 3;
-    grp1[8] = 3;
     
     
     char *dir;
