@@ -27,6 +27,6 @@ written by Geoff Bohling - March 2006, from the University of Kansas, US.
 
 8) Obviously the Canonical Variates Analysis method is implemented in the C file called HelloWorld.c
 
-9) test
+
 
   
