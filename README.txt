@@ -16,7 +16,12 @@ Technical details (not to be confused by the name of the files):
 
 3) You can re-compile the HelloWorld.c in the TERMINAL window of the MAC OS X with the following commands (you will have to add the name of your computer below). 
 
-g++ -I"$Name_of_your_computer_here/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/include" -I"$Admin-HumiMac/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/include/darwin"  -c HelloWorld.cg++ -I"$Name_of_your_computer_here/opt/local/lib" -dynamiclib -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_core -lopencv_features2d -lopencv_flann   -lgsl -o  libhelloworld.jnilib  HelloWorld.o4) HelloWorldcva.java calls Matlab software in order to run the Canonical Variates Analysis implemented in Matlab in the file do_canonical_variatescva3.m.
+g++ -I"$Name_of_your_computer_here/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/include" -I"$Name_of_your_computer_here/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/include/darwin"  -c HelloWorld.c
+
+g++ -I"$Name_of_your_computer_here/opt/local/lib" -dynamiclib -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_core -lopencv_features2d -lopencv_flann   -lgsl -o  libhelloworld.jnilib  HelloWorld.o
+
+
+4) HelloWorldcva.java calls Matlab software in order to run the Canonical Variates Analysis implemented in Matlab in the file do_canonical_variatescva3.m.
 
 5) do_canonical_variatescva3.m file implementing the Canonical Variates Analysis method
 written by Geoff Bohling - March 2006, from the University of Kansas, US. 
