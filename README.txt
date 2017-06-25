@@ -1,5 +1,5 @@
 
-This software reads a number of multispectral images - 8 bit files - located in ImageJ directory , applies the Canonical Variates Analysis algorithm and produces a number of enhanced colour images using the produced 8 bit grayscale images.  The software is using the GSL GNU and OpenCV libraries and it was written for MAC OS X - Yosemite but with minor modifications should run on any platforms.
+This software reads a number of multispectral images - 8 bit files - located in ImageJ directory , applies the Canonical Variates Analysis algorithm and produces a number of enhanced colour images using the produced 8 bit grayscale images.  The software is using the GSL GNU and OpenCV libraries and it was written for MAC OS X - Yosemite but with minor modifications should run on any platforms.  There is also a 16 bit version of this software which will eventually be posted here as well or it is available upon request. 
 
 This code was written by Dr Corneliu Arsene while in the Faculty of Humanities at the University of Manchester, Manchester, United Kingdom between September 2015 and August 2016 on the project financed by Arts and Humanities Research Council (AHRC) of UK entitled "The Syriac Galen Palimpsest : Galen's On Simple Drugs and the Recovery of Lost Texts through Sophisticated Imaging Techniques" (project reference number AH/M005704/1).
 
